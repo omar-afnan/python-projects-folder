@@ -1,0 +1,11 @@
+#mad libb games 
+
+adjective=input("enter a adjective ")
+type_of_bird=input("enter a type of bird")
+room_of_the_house=input("enter the room of the house ")
+
+
+print("It was a " + adjective + "cold november day")
+
+print("I woke up to the smell of " + type_of_bird )
+print("roasting in the " + room_of_the_house+"downstairs.I knew exaclty what day it was ")
