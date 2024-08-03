@@ -1,0 +1,11 @@
+def series_resistance(lst):
+    total_resistance = sum(lst)
+    if total_resistance <= 1:
+        return f"{total_resistance} ohm"
+    else:
+        return f"{total_resistance} ohms"
+
+# Examples
+print(series_resistance([1, 5, 6, 3]))  
+print(series_resistance([16, 3.5, 6]))  
+print(series_resistance([0.5, 0.5]))   
